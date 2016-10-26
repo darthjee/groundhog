@@ -1,9 +1,7 @@
 source "https://rubygems.org"
 
 gem 'clockwork'
-gem 'awscli'
-gem 'recursive-open-struct'
-gem 'minitar'
+gem 'phill'
 
 group :development, :test do
   gem 'rspec', '>= 3.4.0'

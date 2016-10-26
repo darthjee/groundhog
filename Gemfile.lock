@@ -92,7 +92,7 @@ GEM
     fog-json (1.0.2)
       fog-core (~> 1.0)
       multi_json (~> 1.10)
-    fog-local (0.3.0)
+    fog-local (0.3.1)
       fog-core (~> 1.27)
     fog-openstack (0.1.15)
       fog-core (>= 1.40)
@@ -139,7 +139,7 @@ GEM
     fog-voxel (0.1.0)
       fog-core
       fog-xml
-    fog-vsphere (1.4.0)
+    fog-vsphere (1.5.0)
       fog-core
       rbvmomi (~> 1.9)
     fog-xenserver (0.2.3)
@@ -161,6 +161,11 @@ GEM
     multi_json (1.12.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
+    phill (0.1.0)
+      activesupport
+      awscli
+      minitar
+      recursive-open-struct
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -203,11 +208,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  awscli
   clockwork
-  minitar
+  phill
   pry-nav
-  recursive-open-struct
   rspec (>= 3.4.0)
   simplecov
 
